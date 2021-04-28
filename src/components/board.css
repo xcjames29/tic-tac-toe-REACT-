@@ -21,8 +21,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
+    gap: 50px;
 }
 
 .reset{
@@ -46,4 +46,27 @@
 .o{
     font-size: 24px;
     color: blue;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.historyBtn{
+    margin: 5px;
+    height: 30px;
+    min-width: 100px;
+}
+
+.board-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
